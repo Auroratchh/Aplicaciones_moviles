@@ -29,7 +29,7 @@ fun ContactFormScreen(navController: NavController) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Formulario de Contacto") },
+                title = { Text("Formulario de Contacto (Room)") },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, "Regresar")
